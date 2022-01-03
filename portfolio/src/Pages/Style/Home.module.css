@@ -13,5 +13,34 @@
 
 .container{
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 02rem;
+}
+
+.container img{
+    width: 300px;
+}
+
+.container h2{
+    font-size: 30px;
+    color: white;
+}
+
+.container p{
+    font-size: 18px;
+    color: white;
+    margin: 2rem;
+}
+
+.container ul li{
+    display: inline-block;
+}
+
+.container ul li a{
+    color: white;
+    margin: 2rem;
+    font-size: 20px;
+}
+
+.container ul li a:hover{
+    color: var(--blue);
 }
