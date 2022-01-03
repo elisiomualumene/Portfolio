@@ -1,0 +1,17 @@
+:root{
+    --yellow: #FFB927;
+    --orange: #FF501C;
+    --pink: #FF1164;
+    --purple: #8221E6;
+    --blue: #3d74fb;
+  }
+
+.home{
+    background-color: var(--purple);
+    height: 600px;
+}
+
+.container{
+    text-align: center;
+    padding-top: 10rem;
+}

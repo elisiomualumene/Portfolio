@@ -1,0 +1,54 @@
+:root{
+    --yellow: #FFB927;
+    --orange: #FF501C;
+    --pink: #FF1164;
+    --purple: #8221E6;
+    --blue: #3d74fb;
+  }
+
+.menu{
+    background-color: var(--purple);
+}
+
+.menu h1{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 50px;
+    color: #111;
+    margin: 1rem auto 1rem 1rem;
+}
+
+.menu span{
+    color: white;
+    animation: color infinite 20s linear;
+}
+
+@keyframes color {
+    0%{color: white;}
+    5%{color: var(--purple);}
+    10%{color: var(--pink);}
+    50%{color: var(--orange);}
+    100%{color: var(--blue);}
+}
+
+.NavBar{
+    display: inline-block;
+    margin-left: 40rem;
+}
+
+.NavBar ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.NavBar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.NavBar ul li a:hover{
+    color: var(--orange);
+}
+
