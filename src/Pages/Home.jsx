@@ -1,6 +1,6 @@
 import {FaFacebook, FaLinkedin, FaTwitter} from 'react-icons/fa'
 import Style from './Style/Home.module.css'
-import avatar from './man.png'
+import avatar from './images/man.png'
 
 
 const Home = () => {
