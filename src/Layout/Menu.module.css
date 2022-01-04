@@ -8,6 +8,7 @@
 
 .menu{
     background-color: var(--purple);
+    width: 100%;
 }
 
 .menu h1{
@@ -33,7 +34,6 @@
 
 .NavBar{
     display: inline-block;
-    margin-left: 40rem;
 }
 
 .NavBar ul li{
